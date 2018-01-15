@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<p>注意：若要进行除法运算，请保证至少有一个数精确到小数点后一位以上</p>
+<form action="/mathTool" method="post">
+    <input type="number" name="num1" value="{{num1}}">
+    <select name="mark" >
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" name="num2" value="{{num2}}">
+    = {{outcome}}
+    <input type="submit" value="计算">
+</form>
+</body>
+</html>
